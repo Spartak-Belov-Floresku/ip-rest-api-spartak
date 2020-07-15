@@ -9,6 +9,6 @@ The REST API must support four endpoint:
   * **Release an IP** - set the status of a certain IP to “available”
 
 
-<h1>For superuser<h1>
- <h2><strong>admin</strong></h2>
- <h2><strong>password</strong></h2>
+<h1>For superuser:<h1>
+ <h2>username: <strong>admin</strong></h2>
+ <h2>password: <strong>password</strong></h2>
