@@ -5,7 +5,7 @@ class CIDRSerializerAll(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = models.CIDR
         fields = ('id', 'url', 'address', 'status')
-        read_only_fields = ('id', 'url' )
+        read_only_fields = ('id', 'url', 'address' )
 
 class CIDRViewSetAll(viewsets.ModelViewSet):
     queryset = models.CIDR.lists.all()
